@@ -50,7 +50,23 @@ ul {
 .contacts a:hover {
   color: var(--hover-color);
 }
-
+/* Pozitionare linkuri antet */
+.global-header {
+  display: flex;
+  height: 80px;
+  width: 1600px;
+}
+.global-header .main-navigation ul {
+  width: 259px;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts{
+  padding-left: 385px;
+  width: 288px;
+  display: flex;
+  justify-content: space-between;
+}
 /* Stilizare First Section */
 .first-section {
   color: #ffff;
