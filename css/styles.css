@@ -1,0 +1,147 @@
+:root {
+  --section-color: #2f303a;
+  --text-color: #757575;
+  --hover-color: #2196f3;
+}
+
+body {
+  background-color: #ffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #212121;
+}
+ul {
+  list-style-type: none;
+}
+/* Stilizare Logo */
+.logo {
+  text-decoration: none;
+  font-style: "Releway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 2.18;
+  color: #ffff;
+}
+.logo-first {
+  color: var(--hover-color);
+}
+.logo-second {
+  color: #000;
+}
+
+/* Stilizarea link-urilor din antet */
+.global-header .main-navigation a:link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.172;
+  color: #212121;
+}
+.global-header .main-navigation a:hover,
+.global-header .main-navigation a:active,
+.current {
+  color: var(--hover-color);
+}
+.contacts a:link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.contacts a:hover {
+  color: var(--hover-color);
+}
+
+/* Stilizare First Section */
+.first-section {
+  color: #ffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 4.28;
+  background-color: var(--section-color);
+}
+.request-service-button {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2.14;
+  font-style: inherit;
+  cursor: pointer;
+  background-color: var(--hover-color);
+}
+.request-service-button:hover {
+  background-color: #188ce8;
+}
+
+/* Stilizare Description Section */
+.description-title {
+  font-weight: 700;
+  line-height: 1.17;
+}
+.description-text {
+  line-height: 1.71;
+  color: var(--text-color);
+}
+
+/* Stilizare Titluri Sectiuni */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 3.01;
+}
+
+/* Stilizare Our Team Section  */
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+}
+.team-member-job {
+  font-size: 16px;
+  line-height: 1.33;
+  color: var(--text-color);
+}
+/* Stilizare Butoane Filtrare */
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.85;
+  font-family: inherit;
+  cursor: pointer;
+}
+.filter-button:hover {
+  background-color: var(--hover-color);
+  color: white;
+}
+.filter-button:active {
+  background-color: var(--hover-color);
+}
+/* Stilizare Portofolio Section */
+.project-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.57;
+}
+.project-types {
+  font-size: 16px;
+  line-height: 2.14;
+  color: var(--text-color);
+}
+/* Stilizare Subsol */
+.adress {
+  font-style: normal;
+}
+.footer-address:hover {
+  color: var(--hover-color);
+}
+.footer-address {
+  color: #ffffff99;
+}
+.global-footer {
+  line-height: 1.17;
+  background-color: var(--section-color);
+  color: #ffffff;
+  font-style: normal;
+}
