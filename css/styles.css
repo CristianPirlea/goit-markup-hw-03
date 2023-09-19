@@ -22,7 +22,7 @@ ul {
   line-height: 2.18;
   color: #ffff;
 }
-.logo-container{
+.logo-container {
   width: 15%;
   display: flex;
   justify-content: end;
@@ -58,7 +58,7 @@ ul {
 /* Pozitionare linkuri antet */
 .global-header {
   height: 80px;
-  width: 1600px;
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -67,24 +67,33 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-.nav-container{
+.nav-container {
   width: 60%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.contacts{
+.contacts {
   width: 30%;
   display: flex;
   justify-content: space-between;
 }
 /* Stilizare First Section */
 .first-section {
+  width: 100%;
+  /* height: 600px; */
   color: #ffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 4.28;
   background-color: var(--section-color);
+}
+.first-section-container{
+  /* height: 600px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 .request-service-button {
   color: #ffff;
