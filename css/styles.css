@@ -22,6 +22,11 @@ ul {
   line-height: 2.18;
   color: #ffff;
 }
+.logo-container{
+  width: 15%;
+  display: flex;
+  justify-content: end;
+}
 .logo-first {
   color: var(--hover-color);
 }
@@ -52,18 +57,24 @@ ul {
 }
 /* Pozitionare linkuri antet */
 .global-header {
-  display: flex;
   height: 80px;
   width: 1600px;
+  display: flex;
+  align-items: center;
 }
 .global-header .main-navigation ul {
   width: 259px;
   display: flex;
   justify-content: space-between;
 }
+.nav-container{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .contacts{
-  padding-left: 385px;
-  width: 288px;
+  width: 30%;
   display: flex;
   justify-content: space-between;
 }
