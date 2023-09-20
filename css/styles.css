@@ -13,6 +13,11 @@ body {
 ul {
   list-style-type: none;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 94px;
+}
 /* Stilizare Logo */
 .logo {
   text-decoration: none;
@@ -61,6 +66,7 @@ ul {
   width: 100%;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ECECEC;
 }
 .global-header .main-navigation ul {
   width: 259px;
@@ -80,7 +86,7 @@ ul {
 }
 /* Stilizare First Section */
 .first-section {
-  width: 100%;
+  /* width: 100%; */
   /* height: 600px; */
   color: #ffff;
   font-weight: 900;
@@ -89,10 +95,10 @@ ul {
   background-color: var(--section-color);
 }
 .first-section-container{
-  /* height: 600px; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 200px 452px 280px 452px;
 
 }
 .request-service-button {
@@ -117,13 +123,25 @@ ul {
   line-height: 1.71;
   color: var(--text-color);
 }
+/* Pozitionare Description Section */
+.card-set{
+  display: flex;
+  align-items: center;
+}
+.item{
+  /* flex-basis: calc((100% - 120px) / 4); */
+  padding-right: 30px;
+}
 
 /* Stilizare Titluri Sectiuni */
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 3.01;
+  text-align:center ;
 }
+/* Pozitionare What-We-Do Section */
+
 
 /* Stilizare Our Team Section  */
 .team-section {
