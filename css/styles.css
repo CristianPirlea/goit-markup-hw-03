@@ -104,6 +104,7 @@ ul {
 }
 .first-section button {
   margin-bottom: 200px;
+  padding: 12px;
 }
 .request-service-button {
   font-style: inherit;
@@ -111,9 +112,11 @@ ul {
   color: #ffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 2.14;
+  line-height: 1.85;
+  letter-spacing: 0.06em;
   border-radius: 4px;
   width: 200px;
+  border: none;
   background-color: var(--hover-color);
 }
 .request-service-button:hover {
@@ -217,12 +220,21 @@ ul {
 .footer-address {
   color: #ffffff99;
 }
-.global-footer {
+/* .global-footer {
   line-height: 1.17;
   background-color: var(--section-color);
   color: #ffffff;
   font-style: normal;
   width: 100%;
+} */
+.global-footer {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  background-color: var(--section-color);
 }
 .footer-container {
   padding-top: 60px;
